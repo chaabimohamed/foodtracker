@@ -1,0 +1,27 @@
+# database name : food_tracker
+CREATE TABLE register(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fullname VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    PASSWORD VARCHAR(30) NOT NULL
+); CREATE TABLE log_date(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    entry_date DATE NOT NULL,
+    iduser INT,
+    FOREIGN KEY(iduser) REFERENCES register(id)
+); CREATE TABLE food(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    protein INT NOT NULL,
+    carbohydrates INT NOT NULL,
+    fat INT NOT NULL,
+    calories INT NOT NULL,
+    iduser INT,
+    FOREIGN KEY(iduser) REFERENCES register(id)
+); CREATE TABLE food_date(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    food_id INT,
+    log_date_id INT,
+    FOREIGN KEY(food_id) REFERENCES food(id),
+    FOREIGN KEY(log_date_id) REFERENCES log_date(id)
+);

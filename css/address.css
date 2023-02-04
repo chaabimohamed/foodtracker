@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    min-width: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #161616;
+}
+section .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(9, 9, 138);
+    clip-path: circle(70% at right -20%);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+header h2{
+  position:relative ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 500;
+  font-size: 3.2em;
+  color: #fff;
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    list-style: none;
+}
+
+header .navigation li a{
+   display: inline-block;
+   color: #fff;
+   font-weight: 500;
+   text-decoration: none;
+   margin-left: 40px;
+}
+.local{
+    
+    margin-left:8%;
+    margin-top: 5%;
+}
+
+.local .localisation h1{
+    color: white;
+    font-weight: 800;
+    font-size: 2.6em;
+    margin-left: -15%;
+    margin-bottom: 2%;
+    margin-top: 10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.local .localisation .p1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.8em;
+    margin-left: 57%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    font-family:italic;
+    z-index: 10;
+    position: absolute;
+}
+
+.adr{
+     color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-left: 57%;
+   
+    margin-top: -30%;
+    z-index: 10;
+    position: absolute;
+    
+}
+.adr i{
+    color: white;
+   
+   
+}
+.p{
+    color: white;
+   font-weight: 500;
+   font-size: 1.2em;
+   margin-left: 17%;
+   margin-bottom: -8%;
+   margin-top: 10%;
+   font-family:italic;
+}
+.localisation iframe{
+    margin-left: -16%;
+
+}
+
+/* footer */
+
+.footer ul li{
+    display: inline;
+    margin-right: 4%;
+    font-size: 170%;
+    color: rgb(82, 80, 80);
+}
+.footer ul li a{
+    color: black;
+}
+.footer ul{
+    margin-left: 36%;
+    
+}
+.footer{
+    background: #161616;
+    border-top: 1px solid black;
+}
+.copy{
+    margin-left: 38%;
+    color: rgb(82, 80, 80);
+}

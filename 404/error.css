@@ -1,0 +1,43 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+}
+
+body{
+    background-image: url("hhh.png");
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+}
+#op{
+    text-align: bottom;
+    text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 900;
+   font-size: 7.5em;
+   position: absolute;
+   right: 63%;
+   bottom: 35%;
+   color: rgba(45,82,136,255);
+}
+
+
+#auth{
+    text-align: bottom;
+    text-align: center;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: 200;
+   font-size: 3em;
+   position: absolute;
+   right: 59%;
+   bottom: 25%;
+  color: rgba(34,52,102,255);
+}

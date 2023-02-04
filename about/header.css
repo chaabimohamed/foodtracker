@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+header h2{
+  position:relative ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 500;
+  font-size: 3.2em;
+  color: #fff;
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    list-style: none;
+}
+
+header .navigation li a{
+   display: inline-block;
+   color: #fff;
+   font-weight: 500;
+   text-decoration: none;
+   margin-left: 40px;
+}
